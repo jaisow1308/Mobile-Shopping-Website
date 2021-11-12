@@ -1,0 +1,333 @@
+button {
+	background: orange ;
+}
+.ml{
+	width: 200px;
+}
+#tags{
+	background-color: yellow;
+}
+.name{
+	color: red;
+}
+/*body{
+	width: 350px;
+}*/
+/*div{
+	background: url(logo1.jpg);
+}*/
+body{
+	background: url(logo3.jpg);
+	background-repeat: no-repeat;
+	/*background-size: contain;*/
+	/*background-size: cover;*/
+	background-size: 350px;
+	/*background-position: top;*/
+	/*background-position: bottom;*/
+	/*background-position: left;*/
+	/*background-position: right;*/
+	/*background-position: center;*/
+	/*background-position-x: center;*/
+	/*background-position-y: center;*/
+	/*background-position-x: left;*/
+	/*background-position-x: right;*/
+	/*background-position-y: top;*/
+	/*background-position-y: bottom;*/
+}
+.table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 50%;
+	text-align: center;
+	margin:auto;
+}
+.table thead tr th {
+	border: 1px solid black;
+	padding:10px;
+	background-color: #aaa;
+}
+.table tbody tr td {
+	border: 1px solid black;
+	padding:10px;
+}
+.table tr:nth-child(even) {
+	background: #ddd}
+}
+.table tr:nth-child(odd) {
+	background: #FFF
+}
+/*p{
+	text-indent: 35px;
+}*/
+#defn{
+	margin: 10px;
+	padding:2px;
+	border :2px solid blue;
+}
+
+.ht {
+	width: 100 px;
+	margin:10px;
+	padding:2px;
+	border:2px solid black;
+	box-shadow: 5px 10px;
+	text-align: justify;
+	font-size: 18px;
+	text-shadow: 5px 10px 10px red;
+	line-height: 24px;
+	letter-spacing: 0px
+}
+.pass:focus{
+	border: 2px solid red;
+	outline: 0;
+	border-radius: 5px;
+	padding:5px;
+}
+.fontfamily1{
+	font-family: cursive;
+	width: 100 px;
+	margin:10px;
+	padding:2px;
+	border:2px solid black;
+	box-shadow: 5px 10px 10px yellow;
+	text-align: justify;
+	font-size: 18px;
+	text-shadow: 2px 2px 5px yellow;
+	line-height: 24px;
+	letter-spacing: 0px
+}
+.fontfamily2{
+	font-family:Courier, monospace;
+	width: 100 px;
+	margin:10px;
+	padding:2px;
+	border:2px solid black;
+	box-shadow: 5px 10px 10px orange;
+	text-align: justify;
+	font-size: 18px;
+	text-shadow: 2px 2px 5px orange;
+	line-height: 24px;
+	letter-spacing: 0px
+}
+.fontfamily3{
+	font-family: CommercialScript BT;
+	width: 100 px;
+	margin:10px;
+	padding:2px;
+	border:2px solid black;
+	box-shadow: 5px 10px 10px brown;
+	text-align: justify;
+	font-size: 20px;
+	text-shadow: 2px 2px 5px brown;
+	line-height: 24px;
+	letter-spacing: 0px
+}
+.fontfamily4{
+	font-family: Bahnschrift;
+	width: 100 px;
+	margin:10px;
+	padding:2px;
+	border:2px solid black;
+	box-shadow: 5px 10px 10px pink;
+	text-align: justify;
+	font-size: 20px;
+	text-shadow: 2px 2px 5px pink;
+	line-height: 24px;
+	letter-spacing: 0px
+}
+.overflow{
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	width:50%;
+	border: 2px solid black;
+	overflow: hidden;
+}
+.float{
+	float: right;
+	width: 15%;
+	height: 160px;
+	padding-right: 10px;
+	padding-left:20px;
+}
+#float{
+	border:5px double black;
+	margin:10px;
+	padding: 10px;
+}
+
+/* FLEX */
+
+.flex {
+	display:flex;
+	/*flex-direction: column;*/
+	border: 1px solid black;
+	padding: 20px;
+	width: 50%;
+}
+/*.para{
+	border: 1px solid black;
+	padding: 20px;
+}*/
+
+/* GRADIENT  */
+
+#grad1 {
+  height: 180px;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  font-size: 18px;
+  margin :15px;
+  padding:0px;
+  text-align: justify;
+ }
+ .grad2{
+ 	height:190px;
+ 	border: 2px solid black;
+ 	margin: 15px;
+ 	padding:20px;
+ 	text-align: justify;
+ 	font-size: 18px;
+ 	background:linear-gradient(to left ,rgba(255,5,234,0.8),rgba(3,3,3,0.2),rgba(238,255,0,0.8));
+ }
+ .grad3{
+ 	height:190px;
+ 	border: 2px solid black;
+ 	margin: 15px;
+ 	padding:20pxpx;
+ 	text-align: justify;
+ 	font-size: 18px;
+ 	background:radial-gradient(rgba(0,0,0,0.2),rgba(63,212,22,0.2),rgba(8,57,231,0.8));
+ }
+
+/*   OBJECT FIT  */
+
+ .obj{
+ 	width:100%;
+ 	height: 70%;
+ 	/*object-fit: fill;*/
+ 	/*object-fit: contain;*/
+ 	/*object-fit: cover;*/
+}
+
+/*   MULTIPLE COLUMNS   */
+.mcol {
+	column-count: 5;
+	column-gap: 30px;
+	column-rule-style: dotted;
+	column-rule-width: 3px;
+	column-rule: 5px double black;
+}
+.mcol h2{
+	column-span: all;
+}
+
+/* USER INTERFACE */
+
+.interface{
+	width: 40%;
+	height: 30%;
+	border: 3px solid blue;
+	/*resize:horizontal;*/
+	resize: vertical;
+	overflow: auto;
+}
+.outline{
+	outline: 3px solid red;
+	outline-offset: 15px;
+}
+
+/* global declaration */t
+:root{
+	--blue : #0000ff;
+	--red : #ff0000;
+	--black : #000;
+}
+.overflow >p {
+	color: var(--blue);
+	background: var(--white);
+}
+.float-left > p{
+	color: var(--red);
+	background: var(--orange);
+}
+.nbs{
+	width: 200px;
+	height: 100px;
+	border: 2px solid black;
+    box-sizing: border-box; 
+}
+.nbs1{
+	width: 200px;
+	height: 100px;
+	border: 2px solid black;
+	padding: 25px;
+    box-sizing: border-box;
+}
+/* ANIMATION */
+@keyframes test{
+	/*from {background:green;}
+	to {background: orange;}*/
+	0%{background: violet; left: 0;top: 0;}
+	25%{background: red;left:300px; top:0;}
+	50%{background: green;left: 300px; top:300px;}
+	75%{background: brown;left: 0;top: 300px;}
+	100%{background: black;left: 0;top:0;} 
+}
+.bs1{
+	width: 300px;
+	height: 100px;
+	border: 2px solid black;
+	animation-name: test;
+	animation-duration: 6s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-;
+    animation-timing-function: lineae;
+    position: relative;
+}
+.bs1:hover{
+	width: 400px;
+}
+
+/* TRANSITION */
+.bs{
+	width: 100px;
+	height: 100px;
+	background: blue;
+	transition: width 2s;
+	transition-property: transform;
+	transition-duration: 2s;
+	transition-delay: 1s;
+	transition-timing-function: ease;
+}
+.bs:hover{
+	width: 1000px;
+	left:100px;
+	transform: rotate(-180deg);
+}
+/*2d transform*/
+.bs2{
+	width: 100px;
+	height: 100px;
+	background: green;
+	border: 1px solid red;
+    transform:scale(0.5,0.9);
+    transition: width 2s;
+	transition-property: transform;
+	transition-duration: 2s;
+	transition-delay: 1s;
+	transition-timing-function: ease;
+}
+/* MIDEA QUERY */
+/* 1  XS --> Extra small */
+@media only screen and (max-width:480px){}
+
+@media only screen and (max-width:786px) and (min-width:560px){}
+
+@media only screen and (max-width:1024px) and (min-width:992px){}
+
+@media only screen and (min-width:1200px){}
+
+@media only screen and (min-width:1500px){}

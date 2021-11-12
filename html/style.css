@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<head>
+<title>CSS-Cascading Style Sheet</title>
+<style>
+button{
+background : red;
+}
+</style>
+</head>
+<body>
+<button style="background":red;>clickme</button>
